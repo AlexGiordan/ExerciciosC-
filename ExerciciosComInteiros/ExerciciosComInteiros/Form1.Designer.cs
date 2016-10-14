@@ -29,6 +29,14 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dddToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ddddToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dddToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dddToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dddToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ddddToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -39,6 +47,60 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dddToolStripMenuItem,
+            this.dddToolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // dddToolStripMenuItem
+            // 
+            this.dddToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ddddToolStripMenuItem});
+            this.dddToolStripMenuItem.Name = "dddToolStripMenuItem";
+            this.dddToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.dddToolStripMenuItem.Text = "ddd";
+            // 
+            // ddddToolStripMenuItem
+            // 
+            this.ddddToolStripMenuItem.Name = "ddddToolStripMenuItem";
+            this.ddddToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ddddToolStripMenuItem.Text = "dddd";
+            // 
+            // dddToolStripMenuItem1
+            // 
+            this.dddToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dddToolStripMenuItem2,
+            this.dddToolStripMenuItem3,
+            this.ddddToolStripMenuItem1});
+            this.dddToolStripMenuItem1.Name = "dddToolStripMenuItem1";
+            this.dddToolStripMenuItem1.Size = new System.Drawing.Size(40, 20);
+            this.dddToolStripMenuItem1.Text = "ddd";
+            // 
+            // dddToolStripMenuItem2
+            // 
+            this.dddToolStripMenuItem2.Name = "dddToolStripMenuItem2";
+            this.dddToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.dddToolStripMenuItem2.Text = "ddd";
+            // 
+            // dddToolStripMenuItem3
+            // 
+            this.dddToolStripMenuItem3.Name = "dddToolStripMenuItem3";
+            this.dddToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.dddToolStripMenuItem3.Text = "ddd";
+            // 
+            // ddddToolStripMenuItem1
+            // 
+            this.ddddToolStripMenuItem1.Name = "ddddToolStripMenuItem1";
+            this.ddddToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.ddddToolStripMenuItem1.Text = "dddd";
             // 
             // Form1
             // 
@@ -46,15 +108,27 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem dddToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ddddToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dddToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem dddToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem dddToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem ddddToolStripMenuItem1;
     }
 }
 
